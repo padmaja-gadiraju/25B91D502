@@ -1,0 +1,52 @@
+/* Page background and heading */
+body {
+  background-color: #1e1e2f;   /* dark background */
+  color: #f5f5f5;              /* light text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+/* Create form container */
+.create-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Input field */
+.create-form input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  background-color: #2a2a3d;
+  color: #f5f5f5;
+}
+
+.create-form input::placeholder {
+  color: #aaa;
+}
+
+/* Add button */
+.create-form button {
+  background-color: #6c63ff;   /* purple accent */
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.create-form button:hover {
+  background-color: #5a52d6;
+}

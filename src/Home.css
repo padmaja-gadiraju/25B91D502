@@ -1,0 +1,57 @@
+/* General layout */
+body {
+  background-color: #121212; /* dark background */
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.todo-table th,
+.todo-table td {
+  border: 1px solid #444;
+  padding: 12px;
+  text-align: center;
+}
+
+.todo-table th {
+  background-color: #1f1f1f;
+  color: #bb86fc; /* purple accent */
+}
+
+.todo-table td {
+  background-color: #1a1a1a;
+}
+
+/* Buttons */
+button {
+  background-color: #bb86fc; /* purple accent */
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  margin: 0 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #9a67ea; /* lighter purple on hover */
+}
+
+/* Optional: row hover effect */
+.todo-table tr:hover td {
+  background-color: #2a2a2a;
+}
