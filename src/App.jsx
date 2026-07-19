@@ -4,10 +4,11 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
+
 import Create from './Create'
 import Home from './Home'
-
-
 import { Routes, Route, useNavigate } from 'react-router-dom'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
       {view === 'create' && <Create />}
       {view === 'list' && <Home />}
+
 
     </main>
   )
